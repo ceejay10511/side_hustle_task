@@ -1,45 +1,79 @@
-.biodata{
-   background-color: beige;
-   color: 0000;
-   
+*{
+   margin: 0;
+   padding: 0;
 }
+.animate{
+   background-color: black;
+   color: #ffff;
+   margin-right: 20%;
+}
+.animate{
+   -webkit-animation: 0.6s;
+   animation: animatezoom 0.6s;
+   margin: auto;
+   width: 90%;
+}
+
+@-webkit-keyframes animatezoom{
+   from {-webkit-transform: scale(0);}
+   to{-webkit-transform: scale(1);}
+}
+@keyframes animatezoom {
+   from {transform:scale(0)}
+   to {transform:scale(1)}
+}
+
 .name{
    border-radius: 20px;
    padding: 12px;
 }
+
 #email{
    border-radius: 20px;
 }
+
 .bold{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 padding: 12px;
-   border-radius: 20px;
+   border-radius: 2px;
    text-align: center;
    box-sizing: border-box 20px;
    cursor: pointer;
-   width: 570px;
+   width: 50%;
 }
+
 .button{
    position: center;
-   padding: 14px 20px;
-   width: 300px;
+   padding: .5rem;
+   width: 100px;
    text-align: center;
    border-radius: 20px;
    cursor: pointer;
+   background-color: blue;
+   color: white;
+
 }
+
+
+label{
+   text-transform: capitalize;
+}
+
 h1{
    font-style: normal bold;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-weight: 100%;
-   text-align: center;
-   background-color:black;
-   color: aliceblue;
-}
+   text-align: left;
+   }
+
 p{
    font-style: normal bold;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-weight: 100%;
 }
 body{
-   background-color: beige;
+   background-color: rgb(245, 245, 245);
+}
+.form > div{
+   padding: 1rem 0;
 }
